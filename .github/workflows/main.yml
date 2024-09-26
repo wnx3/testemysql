@@ -2,7 +2,7 @@ name: Run Bot Script
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Executa uma vez por hora
+    - cron: '* * * * *'  # Executa uma vez por hora
 
 jobs:
   run-script:
